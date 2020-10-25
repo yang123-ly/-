@@ -1,0 +1,146 @@
+
+.introDuce{
+    position: relative;
+height: auto;
+}
+ .trIntroduceLeft{
+    font-size: 20px;
+    height:380px;
+    background: url("../img/trIntroduceRightBg.png");
+    
+} 
+
+
+.introDuceContent{
+    margin-top: 27px;
+}
+ 
+    .trIntroduceLeft>ul{
+        width: 110%;
+        margin-top: 80px;
+        list-style: none;
+        background: #fff;
+    }
+    .trIntroduceLeft>ul>li{
+        margin-left: -40px;
+        height: 60px;
+        line-height: 60px;
+    }
+    .trIntroduceLeftJiantou{
+        position: absolute;
+        right: 5px;
+    }
+    .trIntroduceLeft>ul>li>a{
+        color: #676767;
+        height: 60px;
+        width: 90%;
+        border-bottom: 1px dashed #999;
+        display: block;
+    }
+    .trIntroduceLeft>ul>li>a:hover{
+        text-decoration: none;
+    }
+    .trIntroduceLeft>ul>li:hover{
+        background: #ffba14;
+    }
+    .trIntroduceLeft>ul>li:hover>a{
+        color: #fff;
+        position: relative;
+    }
+
+.honor{
+   
+    height:auto;
+    background:url("../img/honorBg.png") no-repeat center top;
+    margin-left:90px;
+    background-size:100% 100%;
+    margin-bottom:20px;
+}
+@media(max-width: 993px){
+    .honor{
+    width:100%;
+    height:auto;
+    background:url("../img/honorBg.png") no-repeat center top;
+    margin-left: 0;
+
+}
+}
+@media(max-width:768px){
+    .honors{
+        width:100%;
+        margin-left:0;
+        margin-bottom:20px;
+    }
+    .honorImg div{
+    margin-top:40px;
+}
+.honorImg img{
+    margin: 0;
+    width:100%;
+}
+}
+@media(min-width: 770px){
+    .honorImg img{
+    margin: 0;
+    width:80%;
+}
+.honorImg div{
+    margin-top:40px;
+    margin-left: 8%;
+}
+}
+
+
+
+
+
+@font-face{
+        font-family: ;
+        src: url();
+    }
+
+.content>.row>.cultureText{
+    color:#5e5e5e;
+    letter-spacing: 3px;
+     
+    
+}
+@media(min-width:768px){
+    .content>.row>.cultureText{
+    margin-left:90px;
+     
+    
+}
+}
+.content>.row>.cultureText>h3{
+    text-align: left;
+}
+.content>.row>.cultureText>.cultureTitle{
+    z-index: 3;
+    position: relative;
+    
+}
+.content>.row>.cultureText>.cultureTitleEg{
+    text-indent: 2em;
+    color: #fcddb6;
+    margin-top: -25px;
+    text-transform: uppercase;
+    border-bottom: solid #ff9914 1px;
+}
+.content>.row>.cultureText>h4{
+    text-align: left;
+    text-indent: 2em;
+    line-height: 2;
+}
+@media(max-width:768px){
+    .content>.row>.cultureText>.cultureTitleEg{
+        margin-left: -8%;
+      font-size: 1em;
+      line-height: 1.5;
+      text-indent: 4em;
+  }
+   
+}
+.content{
+	height:auto;
+}

@@ -1,0 +1,29 @@
+.Enrollment{
+    height: 1350px;
+}
+.EnrollmentCenter{
+    height: auto;
+}
+.Enrollmentmid{
+    height: auto;
+}
+.EnrollmentXuzhi{
+    height: 500px;
+}
+.EnrollmentXieyi{
+    height: 400px;
+}
+.EnrollmentFormP {
+    height: 50px;
+}
+.EnrollmentFormS {
+    width: 80px;
+    display: inline-block;
+}
+.EnrollmentSubmit{
+    width: 120px;
+    height: 40px;
+    background: #ffa311;
+    border: #ffa311 1px solid;
+    color: #fff;
+}

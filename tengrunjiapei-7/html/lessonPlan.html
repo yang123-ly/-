@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>腾润驾培</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/public.css">
+  <link rel="stylesheet" href="../css/lessonPrice.css">
+  <script src="../js/jquery-1.11.2.min.js"></script>
+  <link rel="stylesheet" href="../css/phonePublic.css">
+  <link rel="stylesheet" href="../fonts/iconfont.css">
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/public.js"></script>
+  <script src="../js/lessonPrice.js"></script>
+</head>
+
+<body>
+  <div class="shareTo" id="shareShow" style="display: none;">
+    <div class="kePublic">
+      <div class="gb_resLay">
+        <div class="gb_res_t"><span>分享到</span><i></i></div>
+        <div class="bdsharebuttonbox bdshare-button-style0-24" data-bd-bind="1603107693137">
+          <ul class="gb_resItms">
+            <li> <a title="分享到微信" href="#" class="bds_weixin" data-cmd="weixin"></a>微信好友 </li>
+            <li> <a title="分享到QQ好友" href="#" class="bds_sqq" data-cmd="sqq"></a>QQ好友 </li>
+            <li> <a title="分享到QQ空间" href="#" class="bds_qzone" data-cmd="qzone"></a>QQ空间 </li>
+            <li> <a title="分享到腾讯微博" href="#" class="bds_tqq" data-cmd="tqq"></a>腾讯微博 </li>
+            <li> <a title="分享到新浪微博" href="#" class="bds_tsina" data-cmd="tsina"></a>新浪微博 </li>
+            <li> <a title="分享到人人网" href="#" class="bds_renren" data-cmd="renren"></a>人人网 </li>
+          </ul>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div id="header">
+    <div class="container">
+      <div class="row">
+        <!-- 小导航图标 -->
+        <div class="col-xs-2 visible-xs lefticon">
+          <button class="navbar-header">
+            <span class="icon iconfont icon-iconfontmofangdaohang fenxiang" data-toggle="collapse"
+              data-target="#example-navbar-collapse">
+              <span class="sr-only">切换导航</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </span>
+          </button>
+        </div>
+        <!-- logo -->
+        <div class="col-sm-3 col-xs-7 p-logo">
+          <a href="#"><img src="../img/logo.png" class="logo"></a>
+        </div>
+        <!-- 分享图标 -->
+        <div class="col-xs-2 col-xs-offset-1 visible-xs ">
+          <h3><i class="icon iconfont icon-fenxiang share"></i></h3>
+        </div>
+
+
+        <!-- 电话热线 -->
+        <div class="col-sm-5 col-sm-offset-4 col-xs-10 phone">
+          <a href="#"><img src="../img/tel2.png" class="tel"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="nav" class="">
+    <!-- <div class="col-sm-1"></div> -->
+    <div class="container-fluid full">
+      <div class="row" style="margin-right: 0;margin-left: 0;">
+        <nav class=" navbar-default navbg" role="navigation">
+          <div class="col-sm-1.5 col-lg-1.5"></div>
+          <div class="collapse navbar-collapse col-sm-9 col-lg-9" id="example-navbar-collapse">
+
+            <div class="col-sm-1.5  col-lg-1.5 col-xs-0"></div>
+            <div class="col-sm-9 col-lg-9 col-xs-12">
+              <ul class="nav navbar-nav navlength">
+                <li class=""><a href="index.html">首页</a></li>
+                <li class="m  hidden-xs">|</li>
+                <li class="dropdown">
+                  <a href="html/introCulture.html" class="dropdown-toggle" data-toggle="dropdown"
+                    aria-expanded="false">腾润介绍</a>
+                  <ul class="trIntroduction dropdown-menu nav-z">
+                    <li class="text-center  "><a href="html/introCulture.html">企业简介</a></li>
+                    <li class="text-center "><a href="html/introSchool.html">校园风貌</a></li>
+                    <li class="text-center "><a href="html/introSpeech.html">校长致辞</a></li>
+                    <li class="text-center "><a href="#">获得荣誉</a></li>
+                  </ul>
+                </li>
+                <li class="m  hidden-xs">|</li>
+                <li><a href="html/lessonPrice.html">课程费用</a></li>
+                <li class="m hidden-xs">|</li>
+                <li><a href="html/freebus.html">免费班车</a></li>
+                <li class="m hidden-xs">|</li>
+                <li><a href="html/Enrollment.html">网上报名</a></li>
+                <li class="m hidden-xs">|</li>
+                <li><a href="html/coach.html">腾润教练</a></li>
+                <li class="m hidden-xs">|</li>
+                <li><a href="html/learndriving.html">学车指南</a></li>
+                <li class="m hidden-xs">|</li>
+                <li><a href="html/memberUsedcar.html">腾润会员</a></li>
+                <li class="m hidden-xs">|</li>
+                <li><a href="html/contactUS.html">联系我们</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-1.5  col-lg-1.5 col-xs-0"></div>
+          </div>
+          <div class="col-sm-1.5  col-lg-1.5"></div>
+        </nav>
+      </div>
+
+    </div>
+  </div>
+  <div class="PhoneNav visible-xs">
+    <ul class="part1">
+      <li class="Introduce">腾润介绍
+        <ul class="introduceItem">
+          <li><a href="introCulture.html">企业简介</a></li>
+          <li><a href="introVR.html">VR全景</a></li>
+          <li><a href="introSchool.html">校园风貌</a></li>
+          <li><a href="introSpeech.html">校长致辞</a></li>
+          <li><a href="introHonor.html">获得荣誉</a></li>
+        </ul>
+      </li>
+      <li><a href="lessonPrice.html">课程费用</a></li>
+      <li><a href="freebus.html">免费班车</a></li>
+      <li><a href="Enrollment.html">网上报名</a></li>
+    </ul>
+    <ul class="part2">
+      <li><a href="coach.html">腾润教练</a></li>
+      <li><a href="learndriving.html">学车指南</a></li>
+      <li class="Introduce">腾润会员</li>
+      <li><a href="contactUS.html">联系我们</a></li>
+    </ul>
+  </div>
+  <div class="container">
+    <p></p>
+    <div class="col-sm-12 col-lg-12 hidden-xs col-md-12 freebusHeader">
+      <ul>
+        <li>当前位置</li>
+        <li>-</li>
+        <li>课程费用</li>
+        <li>-</li>
+        <li>培训价格</li>
+      </ul>
+    </div>
+    <p></p>
+  </div>
+  <div class="introDuceBanner hidden-xs">
+    <img src="../img/trIntroduceRightbanner.png" class="img-responsive" style="width: 100%;">
+  </div>
+  <!-- 内容部分 -->
+  <div class="row contents hidden-xs hidden-sm">
+    <div class="col-md-3 col-lg-3">
+      <div class="left_nav">
+        <ul>
+          <li><a href="lessonPrice.html">培训价格</a></li>
+          <li><a href="lessonFlow.html">培训流程</a></li>
+          <li><a href="lessonPlan.html">教学计划</a></li>
+          <li><a href="lessonVideo.html">学院视频</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-9 col-lg-9 right_nav">
+      <div class="teaching_program">
+        <h4>第一部分</h4>
+        <h4>道路交通安全法律法规和相关知识</h4>
+        <img src="../img/lessonPrice_down.png" alt="">
+        <table>
+          <thead>
+            <tr>
+              <td>
+                <canvas class="tds" style="width: 100%;height: 100%;"></canvas>
+                <span>车型</span>
+                <p>项目</p>
+              </td>
+              <td>A1</td>
+              <td>A2</td>
+              <td>A3</td>
+              <td>A4</td>
+              <td>A5</td>
+              <td>A6</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>网络课程</td>
+              <td>2学时</td>
+              <td>2学时</td>
+              <td>2学时</td>
+              <td>2学时</td>
+              <td>2学时</td>
+              <td>2学时</td>
+            </tr>
+            <tr>
+              <td>网络课程</td>
+              <td>3学时</td>
+              <td>3学时</td>
+              <td>6学时</td>
+              <td>4学时</td>
+              <td>4学时</td>
+              <td>4学时</td>
+            </tr>
+            <tr>
+              <td>网络课程</td>
+              <td>4学时</td>
+              <td>4学时</td>
+              <td>5学时</td>
+              <td>5学时</td>
+              <td>5学时</td>
+              <td>5学时</td>
+            </tr>
+            <tr>
+              <td>网络课程</td>
+              <td>1学时</td>
+              <td>1学时</td>
+              <td>1学时</td>
+              <td>1学时</td>
+              <td>1学时</td>
+              <td>1学时</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>合计</td>
+              <td>10学时</td>
+              <td>10学时</td>
+              <td>14学时</td>
+              <td>12学时</td>
+              <td>12学时</td>
+              <td>12学时</td>
+            </tr>
+          </tfoot>
+        </table>
+        <img src="../img/lessonPrice_down.png" alt="">
+        <h4>科目一（道路交通安全法规和相关知识）考试</h4>
+        <h4 class="toph4">第二部分</h4>
+        <h4>基础和场地驾驶</h4>
+        <img src="../img/lessonPrice_down.png" alt="">
+        <h4>基础驾驶、模拟器操作2学时</h4>
+        <table>
+          <thead>
+            <tr>
+              <td>
+                <canvas class="tds" style="width: 100%;height: 100%;"></canvas>
+                <span>车型</span>
+                <p>项目</p>
+              </td>
+              <td>A1</td>
+              <td>A2</td>
+              <td>A3</td>
+              <td>A4</td>
+              <td>A5</td>
+              <td>A6</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>个别教学实车操作</td>
+              <td>30学时</td>
+              <td>34学时</td>
+              <td>47学时</td>
+              <td>48学时</td>
+              <td>12学时</td>
+              <td>10学时</td>
+            </tr>
+            <tr>
+              <td>独立驾驶</td>
+              <td>2学时</td>
+              <td>2学时</td>
+              <td>2学时</td>
+              <td>2学时</td>
+              <td>1学时</td>
+              <td>1学时</td>
+            </tr>
+            <tr>
+              <td>综合驾驶及考核实车驾驶</td>
+              <td>2学时</td>
+              <td>2学时</td>
+              <td>2学时</td>
+              <td>2学时</td>
+              <td>1学时</td>
+              <td>1学时</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>合计</td>
+              <td>34学时</td>
+              <td>38学时</td>
+              <td>51学时</td>
+              <td>52学时</td>
+              <td>14学时</td>
+              <td>12学时</td>
+            </tr>
+          </tfoot>
+        </table>
+        <img src="../img/lessonPrice_down.png" alt="">
+        <h4>科目二（场地驾驶）考试</h4>
+        <h4 class="toph4">第三部分</h4>
+        <h4>道路驾驶</h4>
+        <img src="../img/lessonPrice_down.png" alt="">
+        <table>
+          <thead>
+            <tr>
+              <td>
+                <canvas class="tds" style="width: 100%;height: 100%;"></canvas>
+                <span>车型</span>
+                <p>项目</p>
+              </td>
+              <td>A1</td>
+              <td>A2</td>
+              <td>A3</td>
+              <td>A4</td>
+              <td>A5</td>
+              <td>A6</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>个别教学实车操作</td>
+              <td>15学时</td>
+              <td>17学时</td>
+              <td>28学时</td>
+              <td>27学时</td>
+              <td>19学时</td>
+              <td>19学时</td>
+            </tr>
+            <tr>
+              <td>夜间实车行驶</td>
+              <td>2学时</td>
+              <td>2学时</td>
+              <td>2学时</td>
+              <td>2学时</td>
+              <td>2学时</td>
+              <td>2学时</td>
+            </tr>
+            <tr>
+              <td>同车互动实车驾驶</td>
+              <td>2学时</td>
+              <td>2学时</td>
+              <td>2学时</td>
+              <td>2学时</td>
+              <td>2学时</td>
+              <td>2学时</td>
+            </tr>
+            <tr>
+              <td>综合驾驶及考核实车驾驶</td>
+              <td>1学时</td>
+              <td>1学时</td>
+              <td>1学时</td>
+              <td>1学时</td>
+              <td>1学时</td>
+              <td>1学时</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>合计</td>
+              <td>20学时</td>
+              <td>22学时</td>
+              <td>33学时</td>
+              <td>32学时</td>
+              <td>24学时</td>
+              <td>24学时</td>
+            </tr>
+          </tfoot>
+        </table>
+        <img src="../img/lessonPrice_down.png" alt="">
+        <h4>科目三（道路驾驶）考试</h4>
+        <h4 class="toph4">第四部分</h4>
+        <h4>安全文明驾驶常识</h4>
+        <img src="../img/lessonPrice_down.png" alt="">
+        <table>
+          <thead>
+            <tr>
+              <td>
+                <canvas class="tds" style="width: 100%;height: 100%;"></canvas>
+                <span>车型</span>
+                <p>项目</p>
+              </td>
+              <td>A1</td>
+              <td>A2</td>
+              <td>A3</td>
+              <td>A4</td>
+              <td>A5</td>
+              <td>A6</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>交通事故案例示警教育</td>
+              <td>2学时</td>
+              <td>2学时</td>
+              <td>2学时</td>
+              <td>2学时</td>
+              <td>1学时</td>
+              <td>1学时</td>
+            </tr>
+            <tr>
+              <td>综合复习及考核</td>
+              <td>2学时</td>
+              <td>2学时</td>
+              <td>2学时</td>
+              <td>2学时</td>
+              <td>1学时</td>
+              <td>1学时</td>
+            </tr>
+            <tr>
+              <td>网络课程</td>
+              <td>12学时</td>
+              <td>12学时</td>
+              <td>16学时</td>
+              <td>16学时</td>
+              <td>8学时</td>
+              <td>8学时</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>合计</td>
+              <td>16学时</td>
+              <td>16学时</td>
+              <td>20学时</td>
+              <td>20学时</td>
+              <td>10学时</td>
+              <td>10学时</td>
+            </tr>
+          </tfoot>
+        </table>
+        <img src="../img/lessonPrice_down.png" alt="">
+        <h4>科目三（安全文明驾驶常识）考试</h4>
+        <img src="../img/lessonPrice_down.png" alt="">
+        <h4>机动车驾驶人领证</h4>
+      </div>
+    </div>
+  </div>
+  <!-- 内容部分结束 -->
+  <div id="footer">
+    <div class="container BQ">
+      <div class="row">
+        <div class="col-sm-11  col-xs-12">
+          <div class="youqing text-left"><i class="icon iconfont icon-lianjie"></i>友情链接</div>
+        </div>
+        <!-- Line One -->
+        <div class="footerNav1 row">
+          <div class="col-md-2 col-sm-4  col-xs-4">
+            <a href="http://www.mps.gov.cn/n2255040/index.html" target="_blank">公安部交通管理局</a>
+          </div>
+          <div class="col-md-2 col-sm-4  col-xs-4">
+            <a href="http://www.mot.gov.cn/" target="_blank">中华人民共和国交通运输部</a>
+          </div>
+          <div class="col-md-2 col-sm-4  col-xs-4">
+            <a href="http://www.tmri.cn/" target="_blank">公安部交通管理科学研究所</a>
+          </div>
+          <div class="col-md-2 col-sm-4 hidden-xs">
+            <a href="http://www.122.cn/" target="_blank">交通网</a>
+          </div>
+          <div class="col-md-2 col-sm-4 hidden-xs">
+            <a href="http://www.cnvppp.com/index.html" target="_blank">中国汽车公共服务平台</a>
+          </div>
+          <div class="col-md-2 col-sm-4 hidden-xs">
+            <a href="http://he.122.gov.cn/" target="_blank">河北省公安厅交通管理局</a>
+          </div>
+
+        </div>
+        <script>
+          $(".Introduce").click(function () {
+            $(this).children("ul").css("display", "block");
+          })
+          $(".PhoneNav>ul>li").mouseenter(function () {
+            $(this).siblings("li").children("ul").css("display", "none");
+          })
+          // $(".dropdown").mouseenter(function(){
+          //    $(this).children("a").css("color","#333");
+          //    $(this).children("ul").css("display","block");
+          // })
+          // $(".dropdown").mouseleave(function(){
+          //  $(this).children("a").css("color","#fff");
+          //    $(this).children("ul").css("display","none");
+          // })
+        </script>
+        <!-- Line Two -->
+        <div class="footerNav2 row">
+          <div class="col-md-2 col-sm-4  col-xs-4">
+            <a href="http://www.hbgajg.com/" target="_blank">河北公安交管网</a>
+          </div>
+          <div class="col-md-2 col-sm-4  col-xs-4">
+            <a href="http://www.hebgsjjzd.gov.cn/" target="_blank">河北公安高速交警网</a>
+          </div>
+          <div class="col-md-2 col-sm-4  col-xs-4">
+            <a href="http://www.jiakaobaodian.com/" target="_blank">驾考宝典</a>
+          </div>
+          <div class="col-md-2 col-sm-4  hidden-xs">
+            <a href="https://www.autohome.com.cn/qinhuangdao/" target="_blank">汽车之家</a>
+          </div>
+          <div class="col-md-2 col-sm-4  hidden-xs">
+            <a href=""></a>
+          </div>
+        </div>
+        <div class=" col-sm-12 col-xs-8">
+          <ul class="footNav3 row">
+            <li class="text-left"><a href="html/introCulture.html">关于我们</a></li>
+            <li class="m">|</li>
+            <li class="text-left"><a href="html/contactUS.html">网站地图</a></li>
+            <li class="m">|</li>
+          </ul><br><br>
+          <ul class="footNav4 visible-xs row">
+            <li class="text-left"><a href="">地址：秦皇岛市海港区柳村限速桥东行50米路南</a></li>
+            <li class="text-left"><a href="">招生热线：0335-7913777 7913788 3030400</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2 col-xs-4 visible-xs ">
+          <img src="./img/erweima.jpg" class="erweima2" alt="">
+        </div>
+        <div class="col-sm-7 hidden-xs">
+          <ul class="footNav4 row">
+            <li class="text-left"><a href="">地址：秦皇岛市海港区柳村限速桥东行50米路南</a></li>
+            <li class="text-left"><a href="">招生热线：0335-7913777 7913788 3030400 </a></li>
+            <li class="text-left">
+              <address>Copyright©秦皇岛市腾润机动车驾驶员培训有限公司 <a href="http://www.miitbeian.gov.cn/" target="_blank"
+                  style="color:#fff;">冀ICP备17031293号-1</a></address>
+            </li>
+          </ul>
+        </div>
+        <!--  手机端Copyright -->
+        <address class=" col-xs-12 visible-xs copyright">
+          Copyright©秦皇岛市腾润机动车驾驶员培训有限公司 <a href="http://www.miitbeian.gov.cn/" target="_blank"
+            style="color:#fff;">冀ICP备17031293号-1</a>
+
+        </address>
+        <div class="col-sm-2 hidden-xs erweima">
+          <img src="../img/erweima.jpg" alt="">
+        </div>
+        <div class="col-sm-3 hidden-xs erweimaText">
+          <img src="../img/erweimatext.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

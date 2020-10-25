@@ -1,0 +1,227 @@
+.freebus>.freebusLine>.freebusPaths>.freebusPathEnter {
+  height: 180px;
+  background: #ffa914;
+  margin-bottom: 10px;
+  position: relative;
+  padding-right: 25px;
+  padding-left: 25px;
+  color: #fff;
+}
+.freebus>.freebusLine>.freebusPaths>.freebusPath>.freebusPathTitle {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  font-size: 18px;
+}
+.freebus>.freebusLine>.freebusPaths>.freebusPath>.freebusPathInfo {
+  width: 80%;
+  position: absolute;
+  top: 55px;
+  left: 30px;
+  font-size: 14px;
+  line-height: 25px;
+}
+.freebus>.freebusLine>.freebusPaths>.freebusPath>.freebusPathEnd {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  font-size: 14px;
+}
+.freebus>.freebusLine>.freebusPaths>.freebusPath>.freebusPathBg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 15px;
+  height: 180px;
+  background: #ffa914;
+}
+.freebus>.freebusLine>.freebusPaths>.freebusPath>.freebusPathTriEnter {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top: 75px;
+  right: -15px;
+  border-top: 15px solid #fff;
+  border-bottom: 15px solid #fff;
+  border-left: 15px solid #ffa914;
+}
+.freebus>.freebusLine {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.freebusDis {
+  margin-top: 30px;
+}
+.freebus>.freebusLine>.freebusMap {
+  border-top: 1px solid #d9d9d9;
+  position: relative;
+ 
+}
+.freebus>.freebusLine>.freebusMap>.freebusMapTitle {
+  color: #505050;
+  font-size: 24px;
+  margin-top: 30px;
+}
+p{
+  margin: 0 0 10px;
+}
+.freebus>.freebusLine>.freebusMap>.freebusMapTitle>.freebusMapToolbar{
+  background: #f4f4f4;
+}
+.freebus>.freebusLine>.freebusMap>.freebusMapShow {
+  width: 100%;
+  height: 400px;
+  background: #ccc;
+}
+
+.freebus > .freebusLine > .freebusMap > .freebusMapInput {
+  position: absolute;
+  top: 90px;
+  left: 30px;
+  z-index: 999;
+}
+.freebus > .freebusLine > .freebusMap > .freebusMapInput > .freebusMapInputText {
+  outline: none;
+  width: 200px;
+  height: 30px;
+  font-size: 16px;
+  border: none;
+  border-left: 10px solid #fff;
+  float: left;
+}
+.freebus > .freebusLine > .freebusMap > .freebusMapInput > .freebusMapChahao {
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  background: #fff;
+  float: left;
+}
+.freebusMapShu {
+  color: #dddddd;
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-chahao:before {
+  content: "";
+}
+.freebus > .freebusLine > .freebusMap > .freebusMapInput > .freebusMapSearch {
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  background: #3385ff;
+  color: #fff;
+  float: left;
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.freebus > .freebusLine > .freebusMap > .freebusMapShowInfo {
+  position: relative;
+  background: #f4f4f4;
+  width: 100%;
+  height: 270px;
+  overflow: hidden;
+}
+.freebus>.freebusLine>.freebusMap>.freebusMapToolbar {
+  position: absolute;
+  right: 15px;
+  top: 90px;
+  background: #fff;
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  color: #666;
+  z-index: 999;
+}
+@media(max-width:768px){
+ 
+   .freebusMapInput {
+    top: 20px;
+    font-size: 12px;
+  }
+   .freebusMapInput {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 666;
+    padding: 0;
+  }
+  .freebusMapInput>.freebusMapInputText{
+    width: 90px;
+    font-size: 12px;
+  }
+  .freebusMapInput>.freebusMapChahao{
+    width: 30px;
+    height: 30;
+    line-height: 30px;
+    background: #fff;
+    display: inline-block;
+    margin-left: -5px;
+    text-align: left;
+  }
+ .freebusMapInput > .freebusMapSearch {
+    width: 30px;
+   height: 30px;
+    line-height: 30px;
+    background: #3385ff;
+    color: #fff;
+    display: inline-block;
+ }
+  .freebusMapToolbar {
+  position: absolute;
+  left: 170px;
+  top: 0px;
+  background: #fff;
+  width: 130px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  color: #666;
+  z-index: 666;
+ }
+  .freebusXsPath {
+  height: 180px;
+  background: #ffffff;
+  margin-bottom: 10px;
+  position: relative;
+  padding-right: 25px;
+  padding-left: 25px;
+  color: #fff;
+  border: 1px solid #cccaca;
+  margin-top: 20px;
+}
+.freebusPathTitle {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-size: 18px;
+  color: #444444;
+}
+  .freebusPathInfo {
+  width: 80%;
+  position: absolute;
+  top: 65px;
+  left: 30px;
+  font-size: 14px;
+  line-height: 25px;
+  color: #717171;
+}
+.freebusPathBg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 15px;
+  background: #ffa914;
+}
+}

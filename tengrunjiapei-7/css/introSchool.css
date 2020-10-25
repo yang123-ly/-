@@ -1,0 +1,206 @@
+.first{
+  width: 100%;
+  position: relative;
+  height: 200px;
+
+}
+@media(max-width:768px){
+  .first{
+     width: 100%;
+  position: relative;
+  height: 130px;
+  }
+  #firstl>img,#firstr>img{
+    top:13%!important;
+  }
+  .firstf{
+    width:27.7%!important;
+    margin-right:0!important;
+  }
+  .hezi{
+    height:36% !important;
+  }
+  .cs>li{
+    width:8.5%!important;
+  }
+  .cs img{
+    height:82px!important;
+    width:100% !important;
+  }
+  .mod18 #prev,.mod18 #next{
+    top:18%!important;
+  }
+
+}
+.first h3{
+  margin-bottom: 0;
+}
+
+.headf .h3f{
+  text-align: left;
+   margin-bottom: 0;
+}
+.headf a{
+  position:relative;
+  margin-top: -26px;
+  float: right;
+  display: block; 
+  color: #afafaf;
+}
+.firstf{
+  float: left;
+  width: 25%;
+  height:16.5%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.firstf>img{
+  width: 100%;
+  height: 100%;
+}
+#first,#second,.mod18{
+  margin-top: 26px;
+  width: 100%;
+  height: 100%;
+}
+.hezi{
+  position: relative;
+  height:56%;
+}
+#firstl,#firstr{
+  position: absolute;
+  top: 10% !important;
+  width: 4%;
+  display: block;
+}
+#firstl>img{
+  width: 100%;
+  position: absolute;
+  top: 22%;
+  left: 0;
+}
+#firstr>img{
+  width: 100%;
+  position: absolute;
+  z-index:999;
+  top: 22%;
+  right: 25%;
+
+}
+#firstl{
+  position: absolute;
+}
+#firstr{
+  position: absolute;
+}
+.content1{
+  width: 100%;
+}
+@media(min-width:768px){
+  .content1{
+  margin-left:90px;
+}
+.cs{
+  width: 1520px;
+  height: 100px;
+  padding: 0px;
+  margin-left: 1%;
+  
+}
+
+}
+.first>.headf{
+    height: 40px;
+    background-size: 60%;
+  }
+#third>.headf{
+    height: 40px;
+  }
+@media(max-width:768px){
+.first>.headf{
+    height: 34px;
+    background-size: 60%!important;
+  }
+  #third>.headf{
+    height: 34px;
+    background-size: 60%!important;
+  }
+}
+.mod18{
+
+  width: 100%;
+  padding:0;
+}
+#picBox{
+  width: 100%;
+  height: auto;
+
+  
+}
+#picBox>.cf{
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+}
+li{
+list-style-type: none;  
+}
+#picBox>.cf>li{
+  width: 100%;
+  height: 100%;
+}
+#picBox>.cf>li>a{
+  width: 100%;
+  display: inline-block;
+  height: 100%;
+}
+#picBox>.cf>li>a>img{
+  width: 100%;
+  height: 100%;
+}
+#listBox{
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 100px;
+  position: relative;
+}
+.cs{
+  width: 1520px;
+  height: 100px;
+  padding: 0px;
+  margin-left: 1%;
+ /* position: absolute;*/
+  
+}
+.cs img{
+  height: 100px;
+  width: 100%;
+}
+.cs>li{
+  float: left;
+  width: 12%;
+  margin-left: 5px;
+}
+.cs i{
+  display: none;
+}
+#heheh{
+  width: 89.8%;
+  height: 100%;
+  position: relative;
+  padding-right: 30px;
+  overflow: hidden;
+}
+.mod18 .btn{position:absolute;cursor:pointer;z-index:99;font-size:50px;font-weight:bold;
+display: block;}
+.mod18 .prev{left:0%;background:url(../img/School-6.jpg) no-repeat;}
+.mod18 #prev,.mod18 #next{top:30%;display: block;width:2%;height:60px;}
+.mod18 .next{right:0%;background:url(../img/School-7.jpg) no-repeat;}
+.border{
+  border:3px solid #CECDCC;
+}
+@media (min-width: 1206px){
+.content {
+    height: auto;
+}}

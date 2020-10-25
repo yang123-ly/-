@@ -1,0 +1,140 @@
+div.moblie{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+div.moblie>img{
+    width: 80%;
+}
+div.moblie>.lessonfeeTitle1,div.moblie>.lessonfeeTitle2,div.moblie>.lessonfeeTitle3{
+    width: 100%;
+    height: 100px;
+    margin-top: 60px;
+    padding-left: 20px;
+}
+div.moblie>.lessonfeeTitle1{
+    background: url(../img/lessonfeeTitle1.png) no-repeat;
+    background-size: 50%;
+    background-position: 20px 20px;
+}
+div.moblie>.lessonfeeTitle2{
+    background: url(../img/lessonfeeTitle2.png) no-repeat;
+    background-size: 50%;
+    background-position: 20px 20px;
+}
+div.moblie>.lessonfeeTitle3{
+    background: url(../img/lessonfeeTitle3.png) no-repeat;
+    background-size: 50%;
+    background-position: 20px 20px;
+}
+div.moblie>.lessonfeeTitle1>h3,div.moblie>.lessonfeeTitle2>h3,div.moblie>.lessonfeeTitle3>h3{
+    text-align: left;
+    padding-bottom: 5px;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+div.moblie>#moblie_contenter{
+    text-align: left;
+    padding: 0;
+}
+div.moblie>#moblie_contenter>div>ul{
+    float: left;
+    width: 90%;
+    list-style-type: none;
+    display: none;
+    margin: 5%;
+    padding: 0;
+}
+div.moblie>#moblie_contenter>div>#moblie_content{
+    display: block;
+}
+div.moblie>#moblie_contenter>div>ul>li{
+    width: 100%;
+    padding: 4em 0em;
+    margin-bottom: 20px;
+    border-top: solid 1px #cccaca;
+    border-bottom: solid 1px #cccaca;
+    overflow: hidden;
+}
+div.moblie>#moblie_contenter>div>ul>li>div{
+    float: left;
+}
+div.moblie>#moblie_contenter>div>ul>li>div.left{
+    width: 40%;
+    height: 10em;
+}
+div.moblie>#moblie_contenter>div>ul>li>div.left>img{
+    width: 100%;
+    height: 100%;
+}
+div.moblie>#moblie_contenter>div>ul>li>div.right{
+    width: 58%;
+    margin-left: 2%;
+    line-height: 50px;
+    position: relative;
+}
+div.moblie>#moblie_contenter>div>ul>li>div.right>p{
+    width: 10em;
+    height: 4em;
+    line-height: 2em;
+    word-break: break-all;
+}
+div.moblie>#moblie_contenter>div>ul>li>div.right>a{
+    display: block;
+    float: left;
+    color: #a00000;
+    font-weight: 400;
+    font-size: 20px;
+    transform: scale(0.9);
+}
+div.moblie>#moblie_contenter>div>ul>li>div.right>button{
+    position: absolute;
+    top: 0px;
+    right: 15%;
+    padding: 0.5em 1em;
+    margin-bottom: 0;
+    font-size: 3VH;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    background-color: #ff9914;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+div.moblie>.videoone{
+    width: 98%;
+    height: auto;
+}
+div.moblie>.videoone>video{
+    width: 100%;
+    height: auto;
+    margin-left: 1%;
+}
+div.moblie>.videos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+div.moblie>.videos>div{
+    width: 23%;
+    padding: 0.5%;
+    margin-top: 5%;
+    height: auto;
+}
+div.moblie>.videos>div>video{
+    width: 100%;
+    height: auto;
+}
+div.moblie>.videos>div>h3{
+    text-align: center;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
